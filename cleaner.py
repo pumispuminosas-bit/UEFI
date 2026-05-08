@@ -1,4 +1,5 @@
 import os
+import sys
 import struct
 import logging
 import subprocess
@@ -29,17 +30,22 @@ class FirmwareCleaner:
         logger.info(f"Neutralizing Intel ME in {firmware_path}")
         
         try:
-            # Use me_cleaner tool
-            result = subprocess.run([
-                "me_cleaner.py", "-S", "-O", output_path, firmware_path
-            ], capture_output=True, text=True, timeout=300)
+            # Prefer local cloned me_cleaner if available
+            local_me_cleaner = os.path.join(os.path.dirname(__file__), "me_cleaner", "me_cleaner.py")
+            if os.path.isfile(local_me_cleaner):
+                result = subprocess.run([
+                    sys.executable, local_me_cleaner, "-S", "-O", output_path, firmware_path
+                ], capture_output=True, text=True, timeout=300)
+            else:
+                result = subprocess.run([
+                    "me_cleaner.py", "-S", "-O", output_path, firmware_path
+                ], capture_output=True, text=True, timeout=300)
             
             if result.returncode == 0:
                 logger.info("Intel ME successfully neutralized using me_cleaner")
                 logger.info(f"Output saved to {output_path}")
             else:
                 logger.error(f"me_cleaner failed: {result.stderr}")
-                # Fallback to manual method
                 self._clean_intel_me_manual(firmware_path, output_path)
                 
         except FileNotFoundError:

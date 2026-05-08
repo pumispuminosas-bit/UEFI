@@ -1,0 +1,7 @@
+biosutilities
+uefi_firmware
+chipsec
+PyYAML
+tqdm
+yara-python
+PyPDF2
