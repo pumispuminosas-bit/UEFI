@@ -1,0 +1,61 @@
+# Vendor-specific configurations for UEFI firmware analysis
+# This file defines detection patterns, known offsets, and rules for different vendors
+
+vendors:
+  lenovo:
+    description: "Lenovo firmware analysis configuration"
+    known_implant_offsets: [0x10b000, 0x71c970]
+    yara_rules: "implant_rules.yar"
+    firmware_extensions: [".bin", ".rom"]
+    unpack_formats: ["raw", "lenovo_capsule"]
+
+  hp:
+    description: "HP firmware analysis configuration"
+    known_implant_offsets: []  # To be populated based on research
+    yara_rules: "implant_rules.yar"
+    firmware_extensions: [".bin", ".fd", ".rom"]
+    unpack_formats: ["hp_softpaq", "raw"]
+
+  dell:
+    description: "Dell firmware analysis configuration"
+    known_implant_offsets: []  # To be populated
+    yara_rules: "implant_rules.yar"
+    firmware_extensions: [".exe", ".hdr", ".bin"]
+    unpack_formats: ["dell_hdr", "raw"]
+
+  asus:
+    description: "ASUS firmware analysis configuration"
+    known_implant_offsets: []
+    yara_rules: "implant_rules.yar"
+    firmware_extensions: [".rom", ".cap"]
+    unpack_formats: ["asus_cap", "raw"]
+
+  generic:
+    description: "Generic UEFI firmware analysis (default)"
+    known_implant_offsets: []
+    yara_rules: "implant_rules.yar"
+    firmware_extensions: [".bin", ".rom", ".fd", ".cap", ".exe"]
+    unpack_formats: ["raw", "capsule", "hdr"]
+
+# Global detection enhancements based on APT analysis
+apt_indicators:
+  hypervisor_signs:
+    - "e820_reserved_regions"
+    - "acpi_anomalies"
+    - "paravirtualization_indicators"
+    - "fake_nic_behavior"
+
+  network_anomalies:
+    - "tr069_acs_sessions"
+    - "changing_mac_addresses"
+    - "virtual_nic_detection"
+
+  anti_forensics:
+    - "timestamp_manipulation"
+    - "certificate_anomalies"
+    - "backup_tampering"
+
+  firmware_anomalies:
+    - "abnormal_memory_maps"
+    - "stealth_hypervisor_modules"
+    - "efi_pe_drivers_without_imports"

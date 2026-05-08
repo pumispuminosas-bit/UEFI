@@ -1,0 +1,994 @@
+{
+  "timestamp": "2026-05-08T18:21:07.284755",
+  "firmware": "Lenovo.bin",
+  "firmware_size": 8388608,
+  "threat_count": 197,
+  "threat_level": "CRITICAL",
+  "threats": [
+    {
+      "type": "Known Implant",
+      "description": "kabini_pe.exe implant location - CONFIRMED",
+      "offset": "0x71c970"
+    },
+    {
+      "type": "Known Implant",
+      "description": "!SCSMullins implant location - CONFIRMED",
+      "offset": "0x10b000"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature \u0002\u0000\u0000 in potential certificate",
+      "offset": "0x789f8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature \u0000m\u0002\u0000 in potential certificate",
+      "offset": "0x7821b"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0xac300"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0xe4bd7"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature !SCS in potential certificate",
+      "offset": "0x10b000"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature SCSMullins in potential certificate",
+      "offset": "0x10b001"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x13241e"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x309e55"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x315e2a"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x32cf0e"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x333547"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x343c7f"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x34b0ed"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x353890"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x365b02"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x36a881"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x372159"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x39025c"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x3931c3"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x3a433d"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x3a86c5"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x3c140f"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x40aba4"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x42ebb5"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x43ad34"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x43f846"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x4824bf"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x48329c"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x68c39b"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x6d06c7"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x6d7f47"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x7061bb"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x7061ee"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x708bd0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x708bf8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x7073c4"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x7073ed"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x708a20"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x708ad8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x70ac40"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x70acf8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x70adf0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x70ae18"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x70c4a0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x70c560"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x70c658"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x70c680"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x70ce20"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature !SCS in potential certificate",
+      "offset": "0x71c970"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature SCSKABINI in potential certificate",
+      "offset": "0x71c971"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x70ced8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x70cfd0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x70cff8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x70f220"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x70f2d0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x70eae8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x70ef00"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x70f820"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x70f8d8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x70f9d0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x70f9f8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x711020"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x7110d0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x7111c8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x7111f0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x7156c0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature \u0000m\u0002\u0000 in potential certificate",
+      "offset": "0x721ee9"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x715780"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x715878"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x7158a0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x718da0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x718e58"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x718f50"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x718f78"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x719fa0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x71a058"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x71a150"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x71a178"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x71b620"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x71b6d8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x71b7d0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x71b7f8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature !SCS in potential certificate",
+      "offset": "0x72e53f"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x758fc0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x759080"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x759178"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x7591c8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x75bb20"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x75bbd0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x75bcc8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x75bcf0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x75de40"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x75def8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x75ca58"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x75ca80"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x75eca0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x75ed58"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x75ee50"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x75ee78"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x760120"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x7601d8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x7602d0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x7602f8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x763d20"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x763dd8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x763ed0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x763ef8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x765420"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x7654e8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x7655e0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x765608"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x769c40"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x769d08"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x769e00"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x769e28"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x76b240"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x76b300"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x76b3f8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x76b420"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x76cc40"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x76ccf8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x76cdf0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x76ce18"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x76d460"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x76d518"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x76d610"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x76d638"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x76f880"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x76f938"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x76fa30"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x76fa58"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x7703a0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x770460"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x770558"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x770580"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x7744e0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x7745a8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x7746a0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x7746c8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x77b0c0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature \u0000m\u0002\u0000 in potential certificate",
+      "offset": "0x785477"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x77b178"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x77b270"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x77b298"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature \u0002\u0000\u0000 in potential certificate",
+      "offset": "0x787a27"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x77c960"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x77ca28"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x77cb20"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x77cb48"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x77e560"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x77e628"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x77e720"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x77e748"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x780320"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x7803e0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x7804d8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x780500"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x780ea0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x780f58"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x781050"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x781078"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x781ba0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x781c58"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x781d50"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x781d78"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x7851a0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x785260"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x785358"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x785380"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x786dc0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x786e78"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x786f70"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x786f98"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x788040"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x7880f8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x7881f0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x788218"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x788fc0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x789088"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x789180"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x7891a8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x78b240"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x78b2f8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x78b3f0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x78b418"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x78cd20"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x78cdd0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x78cec8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x78cef0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x78e840"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x78e8f8"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .text in potential certificate",
+      "offset": "0x78e9f0"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature .reloc in potential certificate",
+      "offset": "0x78ea18"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "PE file in potential certificate data",
+      "offset": "0x7ffead"
+    },
+    {
+      "type": "Certificate Steganography",
+      "description": "Signature PE\u0000\u0000 in potential certificate",
+      "offset": "0x7ffece"
+    }
+  ]
+}
