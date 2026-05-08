@@ -2,6 +2,8 @@
 
 A professional firmware sanitization toolkit for UEFI BIOS images, combining vendor unpacking, HWID/NVRAM analysis, spoofing, network payload stripping, ME/PSP neutralization, and firmware rebuilding.
 
+**Author:** Aurimas Mackeliunas
+
 ## Why this tool?
 
 This repository is designed for security analysts, incident responders, and firmware engineers who need a fast, repeatable UEFI sanitization workflow with:
